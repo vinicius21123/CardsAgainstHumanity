@@ -9,6 +9,6 @@ const createNewMessage = (arr1,arr2)=>{
     let random2 = Math.floor(Math.random() * arr2.length)
     return console.log(`${arr1[random1]} ${arr2[random2]}`)
 }
-
+console.log('Welcome to Cards against HUMANITY');
 createNewMessage(card1,card2);
 console.log('Hello World');
